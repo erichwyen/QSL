@@ -1,0 +1,17 @@
+#-------------Parameter Settings--------------
+upperbound=n
+multimodel=y
+pthreshold=0.050000
+earlytermination=n
+
+#----------getting frequency file--------------
+Frequencies:	3325
+Used Time:	Wall=0.0113189220428467, CPU=0.01
+
+#----------Constructng Models--------------
+
+range= 175-3324(3150), b/a= inf, sum=29492
+xmin= 176.000000, xmax= inf, a= 2.112, KS=0.01991, p-value=0.00
+
+range= 18-174(157), b/a= 9.21, sum=180340
+xmin= 19.000000, xmax= 175.000000, a= 1.737, KS=0.00418, p-value=0.00

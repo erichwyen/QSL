@@ -1,0 +1,42 @@
+#-------------Parameter Settings--------------
+upperbound=n
+multimodel=y
+pthreshold=0.050000
+earlytermination=n
+
+#----------getting frequency file--------------
+Frequencies:	1902
+Used Time:	Wall=0.00654196739196777, CPU=0
+
+#----------Constructng Models--------------
+
+range= 2-1901(1900), b/a= inf, sum=1904720.00000
+xmin= 3.00000, xmax= inf, a= 2.125, KS=0.00317
+
+range= 1-2(2), b/a= 1.50, sum=2074027.00000
+xmin= 2.00000, xmax= 3.000000, a= 2.256, KS=0.00000
+
+2 models constructed.
+Used Time:	Wall=12.092230796814, CPU=11.81
+
+-------------Starting goodness-of-fit---------------
+
+range= 1-2(2), b/a= 1.50, sum=2074027
+xmin= 2.00000, xmax= 3.000000, a= 2.256, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=2.24304676179273, std=0.0836657222090813	KS avg=1.06936771671062e-08, std=6.48726873066504e-09
+
+
+p-value = 0
+Used Time:	Wall=10813.3040709496, CPU=10782.89
+
+-------------Starting goodness-of-fit---------------
+
+range= 2-1901(1900), b/a= inf, sum=1904720
+xmin= 3.00000, xmax= inf, a= 2.125, KS=0.00317
+Number of set of sythetic data generated = 100
+alpha avg=2.12529857068057, std=0.00117925751721089	KS avg=0.000371274675002047, std=0.000103913995713592
+
+
+p-value = 0
+Used Time:	Wall=10428.5165431499, CPU=10400.41

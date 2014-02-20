@@ -1,0 +1,126 @@
+#-------------Parameter Settings--------------
+upperbound=n
+multimodel=y
+pthreshold=0.050000
+earlytermination=n
+
+#----------getting frequency file--------------
+Frequencies:	1409
+Used Time:	Wall=0.00479006767272949, CPU=0.01
+
+#----------Constructng Models--------------
+
+range= 8-1408(1401), b/a= inf, sum=293334.00000
+xmin= 9.00000, xmax= inf, a= 2.238, KS=0.00219
+
+range= 7-8(2), b/a= 1.12, sum=87979.00000
+xmin= 8.00000, xmax= 9.000000, a= 2.435, KS=0.00000
+
+range= 6-7(2), b/a= 1.14, sum=118359.00000
+xmin= 7.00000, xmax= 8.000000, a= 2.276, KS=0.00000
+
+range= 5-6(2), b/a= 1.17, sum=166348.00000
+xmin= 6.00000, xmax= 7.000000, a= 2.377, KS=0.00000
+
+range= 4-5(2), b/a= 1.20, sum=249449.00000
+xmin= 5.00000, xmax= 6.000000, a= 2.365, KS=0.00000
+
+range= 3-4(2), b/a= 1.25, sum=414658.00000
+xmin= 4.00000, xmax= 5.000000, a= 2.488, KS=0.00000
+
+range= 2-3(2), b/a= 1.33, sum=813549.00000
+xmin= 3.00000, xmax= 4.000000, a= 2.559, KS=0.00000
+
+range= 1-2(2), b/a= 1.50, sum=2289555.00000
+xmin= 2.00000, xmax= 3.000000, a= 2.839, KS=0.00000
+
+8 models constructed.
+Used Time:	Wall=6.99835991859436, CPU=6.98
+
+-------------Starting goodness-of-fit---------------
+
+range= 1-2(2), b/a= 1.50, sum=2289555
+xmin= 2.00000, xmax= 3.000000, a= 2.839, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=2.84032690014487, std=0.0986074205365742	KS avg=1.04654521670966e-08, std=6.29016564192036e-09
+
+
+p-value = 0.91
+Used Time:	Wall=16923.6103160381, CPU=16877.21
+
+-------------Starting goodness-of-fit---------------
+
+range= 2-3(2), b/a= 1.33, sum=813549
+xmin= 3.00000, xmax= 4.000000, a= 2.559, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=2.54442640093592, std=0.10375052300082	KS avg=9.71320603504466e-09, std=6.14875676557375e-09
+
+
+p-value = 0
+Used Time:	Wall=10308.6391308308, CPU=10281.68
+
+-------------Starting goodness-of-fit---------------
+
+range= 3-4(2), b/a= 1.25, sum=414658
+xmin= 4.00000, xmax= 5.000000, a= 2.488, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=2.48915749458131, std=0.106641856347379	KS avg=9.69525355443146e-09, std=6.21322665164414e-09
+
+
+p-value = 0
+Used Time:	Wall=9880.27244400978, CPU=9855.4
+
+-------------Starting goodness-of-fit---------------
+
+range= 4-5(2), b/a= 1.20, sum=249449
+xmin= 5.00000, xmax= 6.000000, a= 2.365, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=2.39104748775569, std=0.103974578391987	KS avg=9.75451245777137e-09, std=6.13812642094103e-09
+
+
+p-value = 0
+Used Time:	Wall=11085.3697659969, CPU=11058.66
+
+-------------Starting goodness-of-fit---------------
+
+range= 5-6(2), b/a= 1.17, sum=166348
+xmin= 6.00000, xmax= 7.000000, a= 2.377, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=2.37236929109029, std=0.0865015451511717	KS avg=9.97523592505267e-09, std=5.96289048391409e-09
+
+
+p-value = 0.51
+Used Time:	Wall=10863.4896371365, CPU=10837.25
+
+-------------Starting goodness-of-fit---------------
+
+range= 6-7(2), b/a= 1.14, sum=118359
+xmin= 7.00000, xmax= 8.000000, a= 2.276, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=2.27318433242289, std=0.0927757009377965	KS avg=1.03566441944647e-08, std=6.48300771343341e-09
+
+
+p-value = 0.58
+Used Time:	Wall=9619.90635991096, CPU=9595.96
+
+-------------Starting goodness-of-fit---------------
+
+range= 7-8(2), b/a= 1.12, sum=87979
+xmin= 8.00000, xmax= 9.000000, a= 2.435, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=2.42781268144391, std=0.0862744040442833	KS avg=9.22275171344467e-09, std=6.3357177587839e-09
+
+
+p-value = 0.67
+Used Time:	Wall=10856.2362091541, CPU=10830.07
+
+-------------Starting goodness-of-fit---------------
+
+range= 8-1408(1401), b/a= inf, sum=293334
+xmin= 9.00000, xmax= inf, a= 2.238, KS=0.00219
+Number of set of sythetic data generated = 100
+alpha avg=2.23835976413903, std=0.00292222010788849	KS avg=0.00101920063800881, std=0.000261275504040749
+
+
+p-value = 0
+Used Time:	Wall=10231.3775060177, CPU=10206.24

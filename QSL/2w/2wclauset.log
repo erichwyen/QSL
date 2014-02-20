@@ -1,0 +1,280 @@
+#-------------Parameter Settings--------------
+upperbound=n
+multimodel=y
+pthreshold=0.050000
+earlytermination=n
+
+#----------getting frequency file--------------
+Frequencies:	3325
+Used Time:	Wall=0.0112361907958984, CPU=0.01
+
+#----------Constructng Models--------------
+
+range= 175-3324(3150), b/a= inf, sum=29492.00000
+xmin= 176.00000, xmax= inf, a= 2.112, KS=0.01991
+
+range= 18-175(158), b/a= 9.26, sum=180529.00000
+xmin= 19.00000, xmax= 176.000000, a= 1.737, KS=0.00415
+
+range= 17-18(2), b/a= 1.06, sum=17212.00000
+xmin= 18.00000, xmax= 19.000000, a= 1.389, KS=0.00000
+
+range= 16-17(2), b/a= 1.06, sum=18896.00000
+xmin= 17.00000, xmax= 18.000000, a= 1.924, KS=0.00000
+
+range= 15-16(2), b/a= 1.06, sum=21006.00000
+xmin= 16.00000, xmax= 17.000000, a= 1.685, KS=0.00000
+
+range= 14-15(2), b/a= 1.07, sum=23213.00000
+xmin= 15.00000, xmax= 16.000000, a= 1.516, KS=0.00000
+
+range= 13-14(2), b/a= 1.07, sum=25722.00000
+xmin= 14.00000, xmax= 15.000000, a= 1.550, KS=0.00000
+
+range= 12-13(2), b/a= 1.08, sum=28891.00000
+xmin= 13.00000, xmax= 14.000000, a= 1.679, KS=0.00000
+
+range= 11-12(2), b/a= 1.08, sum=32864.00000
+xmin= 12.00000, xmax= 13.000000, a= 1.658, KS=0.00000
+
+range= 10-11(2), b/a= 1.09, sum=37537.00000
+xmin= 11.00000, xmax= 12.000000, a= 1.530, KS=0.00000
+
+range= 9-10(2), b/a= 1.10, sum=43387.00000
+xmin= 10.00000, xmax= 11.000000, a= 1.626, KS=0.00000
+
+range= 8-9(2), b/a= 1.11, sum=50970.00000
+xmin= 9.00000, xmax= 10.000000, a= 1.578, KS=0.00000
+
+range= 7-8(2), b/a= 1.12, sum=61012.00000
+xmin= 8.00000, xmax= 9.000000, a= 1.623, KS=0.00000
+
+range= 6-7(2), b/a= 1.14, sum=74733.00000
+xmin= 7.00000, xmax= 8.000000, a= 1.591, KS=0.00000
+
+range= 5-6(2), b/a= 1.17, sum=93733.00000
+xmin= 6.00000, xmax= 7.000000, a= 1.543, KS=0.00000
+
+range= 4-5(2), b/a= 1.20, sum=122404.00000
+xmin= 5.00000, xmax= 6.000000, a= 1.586, KS=0.00000
+
+range= 3-4(2), b/a= 1.25, sum=168525.00000
+xmin= 4.00000, xmax= 5.000000, a= 1.533, KS=0.00000
+
+range= 2-3(2), b/a= 1.33, sum=251736.00000
+xmin= 3.00000, xmax= 4.000000, a= 1.534, KS=0.00000
+
+range= 1-2(2), b/a= 1.50, sum=437939.00000
+xmin= 2.00000, xmax= 3.000000, a= 1.529, KS=0.00000
+
+19 models constructed.
+Used Time:	Wall=34.7849950790405, CPU=34.07
+
+-------------Starting goodness-of-fit---------------
+
+range= 1-2(2), b/a= 1.50, sum=437939
+xmin= 2.00000, xmax= 3.000000, a= 1.529, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=1.52910479084292, std=0.113955696111455	KS avg=9.3496703790219e-09, std=5.76296255432845e-09
+
+
+p-value = 0
+Used Time:	Wall=1710.17811107635, CPU=1705.41
+
+-------------Starting goodness-of-fit---------------
+
+range= 2-3(2), b/a= 1.33, sum=251736
+xmin= 3.00000, xmax= 4.000000, a= 1.534, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=1.54822255015969, std=0.125797173549357	KS avg=9.32922021301685e-09, std=5.30800597369682e-09
+
+
+p-value = 0
+Used Time:	Wall=1113.29502010345, CPU=1110.41
+
+-------------Starting goodness-of-fit---------------
+
+range= 3-4(2), b/a= 1.25, sum=168525
+xmin= 4.00000, xmax= 5.000000, a= 1.533, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=1.53869587940672, std=0.113060372239271	KS avg=9.12894625892946e-09, std=5.63751065753139e-09
+
+
+p-value = 0.15
+Used Time:	Wall=895.319209098816, CPU=892.93
+
+-------------Starting goodness-of-fit---------------
+
+range= 4-5(2), b/a= 1.20, sum=122404
+xmin= 5.00000, xmax= 6.000000, a= 1.586, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=1.61621285224273, std=0.127995568412868	KS avg=8.00540655099269e-09, std=5.19330861777735e-09
+
+
+p-value = 0
+Used Time:	Wall=797.046117067337, CPU=794.98
+
+-------------Starting goodness-of-fit---------------
+
+range= 5-6(2), b/a= 1.17, sum=93733
+xmin= 6.00000, xmax= 7.000000, a= 1.543, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=1.53174234697852, std=0.110570174105889	KS avg=8.36227208700357e-09, std=5.70041246533505e-09
+
+
+p-value = 0
+Used Time:	Wall=730.00651884079, CPU=728.06
+
+-------------Starting goodness-of-fit---------------
+
+range= 6-7(2), b/a= 1.14, sum=74733
+xmin= 7.00000, xmax= 8.000000, a= 1.591, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=1.58080033901918, std=0.119226045860581	KS avg=8.81225221016635e-09, std=5.88222347137591e-09
+
+
+p-value = 0.35
+Used Time:	Wall=667.352077007294, CPU=665.59
+
+-------------Starting goodness-of-fit---------------
+
+range= 7-8(2), b/a= 1.12, sum=61012
+xmin= 8.00000, xmax= 9.000000, a= 1.623, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=1.60624688909943, std=0.0997613600347551	KS avg=9.28179299419796e-09, std=5.27582032343189e-09
+
+
+p-value = 0.09
+Used Time:	Wall=647.512715101242, CPU=645.83
+
+-------------Starting goodness-of-fit---------------
+
+range= 8-9(2), b/a= 1.11, sum=50970
+xmin= 9.00000, xmax= 10.000000, a= 1.578, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=1.56389907940204, std=0.074887676857312	KS avg=8.29229189758252e-09, std=5.15496013466234e-09
+
+
+p-value = 0.13
+Used Time:	Wall=634.449172019958, CPU=632.809999999999
+
+-------------Starting goodness-of-fit---------------
+
+range= 9-10(2), b/a= 1.10, sum=43387
+xmin= 10.00000, xmax= 11.000000, a= 1.626, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=1.63147504365221, std=0.107404778743418	KS avg=7.52880521148747e-09, std=4.93951324824988e-09
+
+
+p-value = 0.41
+Used Time:	Wall=603.716258049011, CPU=602.14
+
+-------------Starting goodness-of-fit---------------
+
+range= 10-11(2), b/a= 1.09, sum=37537
+xmin= 11.00000, xmax= 12.000000, a= 1.530, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=1.5361203571156, std=0.123310291846125	KS avg=9.09775307755822e-09, std=5.65094295065203e-09
+
+
+p-value = 0.13
+Used Time:	Wall=581.247276067734, CPU=579.74
+
+-------------Starting goodness-of-fit---------------
+
+range= 11-12(2), b/a= 1.08, sum=32864
+xmin= 12.00000, xmax= 13.000000, a= 1.658, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=1.65516903067819, std=0.145480670649289	KS avg=8.55466692928353e-09, std=5.49137091152783e-09
+
+
+p-value = 0.51
+Used Time:	Wall=586.741420984268, CPU=585.200000000001
+
+-------------Starting goodness-of-fit---------------
+
+range= 12-13(2), b/a= 1.08, sum=28891
+xmin= 13.00000, xmax= 14.000000, a= 1.679, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=1.68267310509928, std=0.144804479556834	KS avg=9.80310300491283e-09, std=5.64350499157337e-09
+
+
+p-value = 0.69
+Used Time:	Wall=590.608156919479, CPU=589.059999999999
+
+-------------Starting goodness-of-fit---------------
+
+range= 13-14(2), b/a= 1.07, sum=25722
+xmin= 14.00000, xmax= 15.000000, a= 1.550, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=1.55161139165427, std=0.180956970060371	KS avg=9.45966987742075e-09, std=5.41864785697532e-09
+
+
+p-value = 0.05
+Used Time:	Wall=594.614989995956, CPU=593.08
+
+-------------Starting goodness-of-fit---------------
+
+range= 14-15(2), b/a= 1.07, sum=23213
+xmin= 15.00000, xmax= 16.000000, a= 1.516, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=1.50905617920502, std=0.217155846097727	KS avg=6.94420299374166e-09, std=4.71358061768729e-09
+
+
+p-value = 0.05
+Used Time:	Wall=598.399468898773, CPU=596.85
+
+-------------Starting goodness-of-fit---------------
+
+range= 15-16(2), b/a= 1.06, sum=21006
+xmin= 16.00000, xmax= 17.000000, a= 1.685, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=1.66652874270816, std=0.220024910811228	KS avg=6.37865066099863e-09, std=4.72590605609907e-09
+
+
+p-value = 0.32
+Used Time:	Wall=602.524509906769, CPU=600.619999999999
+
+-------------Starting goodness-of-fit---------------
+
+range= 16-17(2), b/a= 1.06, sum=18896
+xmin= 17.00000, xmax= 18.000000, a= 1.924, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=1.91625707255092, std=0.280793085626787	KS avg=7.04749779201208e-09, std=5.12856766304024e-09
+
+
+p-value = 0.88
+Used Time:	Wall=604.473957061768, CPU=602.890000000001
+
+-------------Starting goodness-of-fit---------------
+
+range= 17-18(2), b/a= 1.06, sum=17212
+xmin= 18.00000, xmax= 19.000000, a= 1.389, KS=0.00000
+Number of set of sythetic data generated = 100
+alpha avg=1.38062642389553, std=0.309759289382765	KS avg=6.55695180040716e-09, std=5.23206933978026e-09
+
+
+p-value = 0.41
+Used Time:	Wall=607.307911872864, CPU=605.709999999999
+
+-------------Starting goodness-of-fit---------------
+
+range= 18-175(158), b/a= 9.26, sum=180529
+xmin= 19.00000, xmax= 176.000000, a= 1.737, KS=0.00415
+Number of set of sythetic data generated = 100
+alpha avg=1.73764898298627, std=0.0042938963576313	KS avg=0.00134975952824955, std=0.000321180098737691
+
+
+p-value = 0
+Used Time:	Wall=743.534759044647, CPU=741.610000000001
+
+-------------Starting goodness-of-fit---------------
+
+range= 175-3324(3150), b/a= inf, sum=29492
+xmin= 176.00000, xmax= inf, a= 2.112, KS=0.01991
+Number of set of sythetic data generated = 100
+alpha avg=2.11287749252102, std=0.0105044198643804	KS avg=0.00341442868535318, std=0.000863295343635947
+
+
+p-value = 0
+Used Time:	Wall=4410.98675107956, CPU=4399.89

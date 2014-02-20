@@ -1,0 +1,35 @@
+#!/bin/sh
+ROOTPATH=`pwd`
+for LENGTH in 2 3 4
+do 
+	for NAME in corral
+	do
+		touch "tmp.pbs"
+		cat >"tmp.pbs" <<EOF
+#!/bin/sh
+#PBS -N QSL   ### job name
+#PBS -o "$LENGTH"w"$NAME".out  ### standard output
+#PBS -e "$LENGTH"w"$NAME".err  ### standard error
+#PBS -q workq     ### queue 
+#PBS -l nodes=1:ppn=1  ### limit resource
+### nodes: usage number of node
+### ppn:   usage number of processor per node
+### your command or program
+perl "$ROOTPATH/model_builder_$NAME.pl" \
+$ROOTPATH/QSL/"$LENGTH"w/"$LENGTH"wQSL_clean.freqcnt -d $ROOTPATH/QSL/"$LENGTH"w -o "$LENGTH"w$NAME <<EOS
+n
+n
+0.05
+y
+
+EOS
+
+EOF
+		qsub tmp.pbs
+		rm tmp.pbs
+	done
+done
+
+
+
+
